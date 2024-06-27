@@ -1,0 +1,170 @@
+/*Cinzel*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+/*Exo*/
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background: linear-gradient(black, rgba(0, 0, 0, 0));
+    min-height: 80px;
+}
+
+.navbar a {
+    font-family: "Cinzel", serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff; 
+    font-family: "Cinzel", serif;
+    font-style: normal;
+    font-size: 16px;
+
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #DAA520; 
+}
+
+/*.navbar .navbar-brand:hover {
+    color: #556B2F;
+}*/
+
+h1 {
+    font-family: "Cinzel", serif;
+    font-style: normal;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: "Cinzel", serif;
+    font-style: normal;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: "Cinzel", serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+h5 {
+    font-family: "Cinzel", serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+p {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.seccion-banner {
+    background: linear-gradient( transparent, rgba(0, 0, 0, 0.8)), url(../img/img-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0 20px 50px black;
+    width: 100%;
+    height: 500px;
+}
+
+.seccion-banner span {
+    color: #DAA520;
+}
+
+.seccion-uno {
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/img-seccion-uno.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 2007px;
+
+}
+
+.seccion-uno span {
+    color: #556B2F;
+}
+
+
+.titulo-seccion-uno {
+    padding-top: 150px;
+}
+
+.con-seccion-uno {
+    padding-top: 20%;
+}
+
+.titulo-seccion-dos {
+    padding: 150px 0px 150px 0px;
+}
+
+.card-title-pro {
+    font-family: "Cinzel", serif;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.card-text-pro {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.card-text-pre {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: #9F9593;
+}
+
+.titulo-seccion-tres {
+    padding: 150px 0px 150px 0px;
+}
+
+.titulo-seccion-cuatro {
+    padding: 150px 0px 150px 0px;
+}
+
+footer {
+    background-color: #556B2F;
+}
+
+.footer-body {
+    padding: 10% 0% 0% 0%;
+}
+
+.footer-titulo {
+    font-family: "Cinzel", serif!important;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 2%;
+}
+
+footer a {
+   text-decoration: none;
+   color: #fff;
+}
+
+footer .col-md-4 a:hover {
+    color: #DAA520;
+}
